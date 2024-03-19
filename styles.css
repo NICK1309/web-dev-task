@@ -1,0 +1,96 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.member {
+    text-align: center;
+    margin: 20px;
+}
+
+.member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+    margin-bottom: 5px;
+}
+
+
+p {
+    text-align: center; /* Align paragraphs to the center */
+}
+/* CSS style for dotted purple horizontal line */
+.dotted-purple-line {
+    border: none;
+    border-top: 2px dotted purple; /* Set the border-top to create the dotted line */
+}
+h2 {
+    text-align: center;
+    text-decoration: solid;
+}
+
+.member {
+    text-align: center;
+    margin: 95px; /* Adjust margin to create space between members */
+    display: inline-block; /* Prevents members from stacking vertically */
+}
+
+/* CSS style for the colored box */
+/* CSS style for centered box */
+.centered-box {
+    width: 300px; /* Set width of the box */
+    height: 50px; /* Set height of the box */
+    background-color: violet; /* Set background color of the box */
+    /* Set text color inside the box */
+    text-align: center; /* Align text horizontally in the center */
+    line-height: 50px; /* Center text vertically */
+    margin: 0 auto; /* Center the box horizontally */
+    border-radius: 8%;
+}
+
+.centered-box1 {
+    width: 370px; /* Set width of the box */
+    height: 50px; /* Set height of the box */
+    background-color: violet; /* Set background color of the box */
+    /* Set text color inside the box */
+    font-size: 34px;
+    color: white;
+    text-align: center; /* Align text horizontally in the center */
+    line-height: 50px; /* Center text vertically */
+    margin: 0 auto; /* Center the box horizontally */
+   
+}
